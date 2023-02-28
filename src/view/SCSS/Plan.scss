@@ -1,0 +1,108 @@
+.plan_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color: white !important;
+    min-height: 50vh;
+    padding: 2rem 1rem 4rem 1rem;
+    text-transform: capitalize;
+}
+
+.bi-check-lg {
+    color: rgb(218, 44, 44) !important;
+    font-size: xx-large;
+}
+
+.bi-phone,
+.bi-tablet,
+.bi-laptop,
+.bi-tv {
+    font-size: xx-large;
+}
+
+.plan_table {
+    width: 100vw;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white !important;
+    text-align: justify;
+    font-size: larger;
+}
+
+.plan_div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 89, 89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.plan_div:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.plan_table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.plan_table tr:nth-child(1):hover {
+    background-color: black;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+@media screen and ( max-width : 650px) {
+    .plan_table{
+        text-align: justify;
+    }
+
+    .plan_table .vertical_header{
+        display: flex;
+        background-color: transparent;
+        width: 100vw;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    .plan_table td{
+        display: inline-flex;
+        justify-content: center;
+        width: 25%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .plan_table .table_header .horizontal_header{
+        display: inline-flex;
+        width: 25%;
+        justify-content: center;
+    }
+
+    .plan_table .table_header .horizontal_header:nth-child(1){
+        display: none;
+    }
+}
+
+.plan_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white !important;
+    height: 40vh;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    flex-direction: column;
+}

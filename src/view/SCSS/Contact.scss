@@ -1,0 +1,18 @@
+.contact_one, .contact_two{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    text-transform: capitalize;
+    margin: 3rem 0;
+}
+
+h1{
+    margin: 2rem 0;
+}
+
+h3{
+    font-weight: 600;
+}

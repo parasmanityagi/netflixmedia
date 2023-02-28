@@ -1,0 +1,35 @@
+.about_one{
+    height: 100vh;
+    padding:0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #472442 ,#614c8d ,#1e3569 ,#000 ,#1e3569 ,#614c8d ,#472442 );
+    color: white !important;
+    text-align: center;
+    width: 100%;
+}
+
+.about_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-wrap: wrap;
+    padding: 2rem 5rem;
+    background-color: black;
+    color: white !important;
+    font-size: 1.4rem;
+}
+
+@media screen and ( max-width : 500px ) {
+    .about_one h1{
+        font-size: 1.4rem;
+        margin: 20px 0;
+    }
+
+    .about_two{
+        font-size: 1.2rem;
+    }
+}

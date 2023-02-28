@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+
+.navbar_one{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* hamburger styling */
+.bar{
+    display: none;
+    color: red ;
+}
+
+
+
+// signup   div  styling =======>>>>>>>>>>>
+.signup{
+    background-color: blue;
+    padding: .3rem 1.2rem ;
+    border-radius: 5px;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+}
+
+
+
+.navbar_two{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.active_menu{
+    color: blue !important;
+    border-bottom: 2px solid blue;
+    font-weight: 700;
+}
+
+
+@media screen and ( max-width : 770px )  {
+    .bar{
+        display: block;
+    }
+
+    .navbar_one{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbarMenuLink{
+        display: none;
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and ( max-width : 400px )  {
+    .companyName{
+        font-size: 1.4rem;
+    }
+}

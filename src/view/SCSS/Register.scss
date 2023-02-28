@@ -1,0 +1,41 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100vh;
+
+    input{
+        width: 500px;
+        text-transform: capitalize;
+        font-size: larger;
+        padding: .5rem;
+        border: none;
+        margin: 1rem;
+        outline: none;
+        text-align: center;
+    }
+
+    button{
+        border: none;
+        background-color: red;
+        font-size: x-large;
+        padding: 0.5rem 2rem;
+        border-radius: 5px;
+        font-weight: 700;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media (max-width : 530px){
+    .register{
+
+        input{
+            width: 95%;
+            margin: 1rem 0;
+        }
+    }
+}
